@@ -1,46 +1,75 @@
+# 🧠 Minecraft AI Companion
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+A smart Forge-based AI companion mod for Minecraft (1.20.x).  
+The bot follows the player, remembers their name and inventory across sessions, picks up items, respawns after death, and will soon learn from player actions.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+## 📦 Features
 
-Setup Process:
-==============================
+- 👤 Follows and watches the player with natural movement  
+- 🧠 Remembers name and inventory even after death or logout  
+- 🎒 Picks up dropped items and informs the player  
+- ⚰️ Drops inventory when killed  
+- ♻️ Automatically respawns after 2 seconds  
+- 🔧 In-game commands for resetting, clearing or summoning
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+## More info in my telegram: https://t.me/+x3quqHSX6PRjZDcy
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+## 📁 Requirements
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+- Java 17+
+- Minecraft Forge 1.20.1
+- Gradle 8.x+
+- IntelliJ IDEA or VSCode (recommended)
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+## 🚀 How to Build and Run
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+1. Clone the repo
+   ```
+   git clone https://github.com/YOUR_USERNAME/minecraft-ai-companion.git
+   cd minecraft-ai-companion
+   ```
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+2. Open in IntelliJ IDEA  
+   - Select `build.gradle` as project  
+   - Let it import all dependencies
+
+3. Generate run configs
+   ```
+   ./gradlew genIntellijRuns
+   ```
+
+4. Run the client  
+   - Use the `runClient` configuration from the Gradle panel or "Edit Configurations"
+
+5. Build the mod JAR
+   ```
+   ./gradlew build
+   ```
+   Output: `build/libs/`
+
+## 🔧 In-Game Commands
+
+| Command                   | Description                              |
+|---------------------------|------------------------------------------|
+| /companion reset_name     | Reset companion name                     |
+| /companion clear_inventory| Clear all inventory items                |
+| /companion die            | Kill the companion (drops inventory)     |
+| /companion summon         | Save old one and spawn new near player   |
+
+## 🧪 Tested On
+
+- Minecraft 1.20.1 (Forge)
+- Java 17 (Adoptium)
+- IntelliJ IDEA 2023.2
+
+## 📘 License
+
+This project is for educational and personal use.  
+If you want to use it in a public modpack or distribute it, please credit and link the repository.
+
+## ✨ Coming Soon
+
+- 🎤 Voice interaction (Whisper + TTS)
+- 📜 Logging player actions
+- 💬 Dialog system and learning
+- 🧱 Teaching your bot how to build & craft
