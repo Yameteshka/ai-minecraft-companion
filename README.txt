@@ -1,9 +1,9 @@
-# 🧠 Minecraft AI Companion
+🧠 Minecraft AI Companion
 
 A smart Forge-based AI companion mod for Minecraft (1.20.x).  
 The bot follows the player, remembers their name and inventory across sessions, picks up items, respawns after death, and will soon learn from player actions.
 
-## 📦 Features
+📦 Features
 
 - 👤 Follows and watches the player with natural movement  
 - 🧠 Remembers name and inventory even after death or logout  
@@ -14,14 +14,14 @@ The bot follows the player, remembers their name and inventory across sessions, 
 
 ## More info in my telegram: https://t.me/+x3quqHSX6PRjZDcy
 
-## 📁 Requirements
+📁 Requirements
 
 - Java 17+
 - Minecraft Forge 1.20.1
 - Gradle 8.x+
 - IntelliJ IDEA or VSCode (recommended)
 
-## 🚀 How to Build and Run
+🚀 How to Build and Run
 
 1. Clone the repo
    ```
@@ -38,16 +38,16 @@ The bot follows the player, remembers their name and inventory across sessions, 
    ./gradlew genIntellijRuns
    ```
 
-4. Run the client  
-   - Use the `runClient` configuration from the Gradle panel or "Edit Configurations"
-
-5. Build the mod JAR
+4. Build the mod JAR
    ```
    ./gradlew build
    ```
    Output: `build/libs/`
 
-## 🔧 In-Game Commands
+5. Run the client  
+   - Use the `runClient` configuration from the Gradle panel or "Edit Configurations"
+
+🔧 In-Game Commands
 
 | Command                   | Description                              |
 |---------------------------|------------------------------------------|
@@ -56,20 +56,20 @@ The bot follows the player, remembers their name and inventory across sessions, 
 | /companion die            | Kill the companion (drops inventory)     |
 | /companion summon         | Save old one and spawn new near player   |
 
-## 🧪 Tested On
+🧪 Tested On
 
 - Minecraft 1.20.1 (Forge)
-- Java 17 (Adoptium)
+- Java 17 (Oracle JDK)
 - IntelliJ IDEA 2023.2
 
-## 📘 License
+📘 License
 
 This project is for educational and personal use.  
 If you want to use it in a public modpack or distribute it, please credit and link the repository.
 
-## ✨ Coming Soon
+✨ Coming Soon
 
-- 🎤 Voice interaction (Whisper + TTS)
+- 🎤 Voice interaction
 - 📜 Logging player actions
 - 💬 Dialog system and learning
-- 🧱 Teaching your bot how to build & craft
+- 🧱 Teaching system to your bot how to pvp & build & craft
