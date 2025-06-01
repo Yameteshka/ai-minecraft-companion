@@ -104,7 +104,14 @@ More info in my telegram: https://t.me/+x3quqHSX6PRjZDcy
 
 ## 📄 License
 
-See the [`LICENSE`](LICENSE) file for details.
+<a href="https://github.com/Yameteshka/ai-minecraft-companion/blob/main/LICENSE.md">
+  <img src="https://img.shields.io/badge/license-Custom%20%2F%20Contact%20Required-blueviolet?style=for-the-badge" />
+</a>
+
+Use of this project (code or idea) is restricted.  
+Please refer to the [LICENSE.md](https://github.com/Yameteshka/ai-minecraft-companion/blob/main/LICENSE.md) file  
+and contact @Yameteshka via Telegram: [@emzzes](https://t.me/emzzes) before any public or commercial use.
+
 
 ### 🛠 Tech Stack Used
 
