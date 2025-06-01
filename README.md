@@ -11,9 +11,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-under%20active%20development-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/minecraft-ai-companion?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/YOUR_USERNAME/minecraft-ai-companion?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/YOUR_USERNAME/minecraft-ai-companion?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/Yameteshka/minecraft-ai-companion?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/Yameteshka/minecraft-ai-companion?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/Yameteshka/minecraft-ai-companion?style=for-the-badge" />
 </p>
 
 ---
