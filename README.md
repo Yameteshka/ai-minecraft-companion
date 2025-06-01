@@ -93,13 +93,6 @@ More info in my telegram: https://t.me/+x3quqHSX6PRjZDcy
 
 ---
 
-### 📘 License
-
-This project is for educational and personal use.  
-If you want to use it in a public modpack or distribute it, please credit and link the repository.
-
----
-
 ### ✨ Coming Soon
 
 - 🎤 Voice interaction  
