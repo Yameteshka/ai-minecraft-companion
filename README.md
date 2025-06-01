@@ -102,6 +102,10 @@ More info in my telegram: https://t.me/+x3quqHSX6PRjZDcy
 
 ---
 
+## 📄 License
+
+See the [`LICENSE`](LICENSE) file for details.
+
 ### 🛠 Tech Stack Used
 
 <p align="center">
