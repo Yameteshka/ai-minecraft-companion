@@ -1,4 +1,4 @@
-<h1 align="center">🧠 Minecraft AI Companion</h1>
+<h1 align="center">🧠 AI Minecraft Companion</h1>
 
 <p align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc245Z2c3NmR4dTY4amI0enFsaHJwazdzMjE4aGtrdnVkMnV0MThjZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/I5k4ixA8x9jjS40QVx/giphy.gif" width="220" />
