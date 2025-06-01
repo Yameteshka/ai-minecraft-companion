@@ -13,7 +13,9 @@
   <img src="https://img.shields.io/badge/status-under%20active%20development-orange?style=for-the-badge" />
   <img src="https://img.shields.io/github/stars/Yameteshka/ai-minecraft-companion?style=for-the-badge" />
   <img src="https://img.shields.io/github/issues/Yameteshka/ai-minecraft-companion?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/Yameteshka/ai-minecraft-companion?style=for-the-badge" />
+  <a href="https://github.com/Yameteshka/ai-minecraft-companion/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/badge/license-Custom%20%2F%20Contact%20Required-blueviolet?style=for-the-badge" />
+  </a>
 </p>
 
 ---
